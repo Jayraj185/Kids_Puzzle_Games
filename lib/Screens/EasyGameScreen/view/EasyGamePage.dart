@@ -56,9 +56,6 @@ class _EasyGamePageState extends State<EasyGamePage> with TickerProviderStateMix
             child: InkWell(
               onTap: () {
                 Get.offAllNamed('Home');
-                homeController.etotal.value=0;
-                homeController.eind.value=0;
-                homeController.ewin.value = false;
               },
               child: Container(
                 height: Get.height / 7,

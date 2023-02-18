@@ -53,9 +53,6 @@ class _HardGamePageState extends State<HardGamePage> with TickerProviderStateMix
             child: InkWell(
               onTap: () {
                 Get.offAllNamed('Home');
-                // homeController.htotal.value=0;
-                // homeController.hind.value=0;
-                // homeController.hwin.value = false;
               },
               child: Container(
                 height: Get.height / 7,

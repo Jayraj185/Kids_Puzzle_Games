@@ -53,9 +53,9 @@ class _MediumGamePageState extends State<MediumGamePage> with TickerProviderStat
             child: InkWell(
               onTap: () {
                 Get.offAllNamed('Home');
-                homeController.mtotal.value=0;
-                homeController.mind.value=0;
-                homeController.mwin.value = false;
+                // homeController.mtotal.value=0;
+                // homeController.mind.value=0;
+                // homeController.mwin.value = false;
               },
               child: Container(
                 height: Get.height / 7,
@@ -350,6 +350,7 @@ class _MediumGamePageState extends State<MediumGamePage> with TickerProviderStat
                     onDragCompleted: () {
                       homeController.MediumLevelList[homeController.mind.value].DraggebleList![index] = HomeModel(isAccept: true,image: homeController.MediumLevelList[homeController.mind.value].DraggebleList![index].image,key: homeController.MediumLevelList[homeController.mind.value].DraggebleList![index].key);
                       homeController.MediumLevelList[homeController.hind.value] = HomeModel2(DraggebleList: homeController.MediumLevelList[homeController.hind.value].DraggebleList,DragTargetList: homeController.MediumLevelList[homeController.hind.value].DragTargetList);
+                      homeController.mtotal.value++;
                       if(homeController.mtotal.value==4)
                       {
                         homeController.mtotal.value=0;
@@ -362,7 +363,7 @@ class _MediumGamePageState extends State<MediumGamePage> with TickerProviderStat
                         else if(homeController.mind.value==5)
                         {
                           homeController.mwin.value = true;
-                          Timer(Duration(milliseconds: 3300), () {
+                          Timer(Duration(milliseconds: 3500), () {
                             Get.back();
                             homeController.mwin.value = false;
                             homeController.mind.value=0;

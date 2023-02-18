@@ -83,44 +83,26 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
                           width: Get.width/5,
                           margin: EdgeInsets.only(top: Get.height/1.5),
                           decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                  begin: Alignment.topRight,
-                                  end: Alignment.bottomLeft,
-                                  colors: [
-                                    // Colors.greenAccent.shade100,
-                                    // Colors.greenAccent.shade200,
-                                    Color(0xFFDBDC48),
-                                    Color(0xFF9DBD00),
-                                    Color(0xFF7CA702),
-                                    // Colors.greenAccent.shade700,
-                                  ]
-                              ),
+                              color: Colors.deepOrange.shade700,
                               borderRadius: BorderRadius.circular(30),
-                              border: Border.all(color: Color(0xFF7CA702),width: 2)
+                              border: Border.all(color: Colors.deepOrange.shade900,width: 2)
                           ),
                           alignment: Alignment.center,
                           child: Container(
                             height: Get.height/7.6,
                             width: Get.width/5.5,
                             decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                  begin: Alignment.topRight,
-                                  end: Alignment.bottomLeft,
-                                  colors: [
-                                    Color(0xFFDBDC48),
-                                    Color(0xFF9DBD00),
-                                  ]
-                              ),
+                              color: Colors.deepOrange.shade600,
                               borderRadius: BorderRadius.circular(30),
                             ),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Icon(Icons.play_arrow_outlined,color: Colors.white,size: 38.sp,),
+                                Icon(Icons.play_arrow_outlined,color: Colors.amber.shade300,size: 38.sp,),
                                 Text(
                                   "Easy",
                                   style: GoogleFonts.caveatBrush(
-                                      color: Colors.white,
+                                      color: Colors.amber.shade300,
                                       fontWeight: FontWeight.bold,
                                       fontSize: 22.sp,
                                       shadows: [
@@ -142,46 +124,27 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
                           width: Get.width/4,
                           margin: EdgeInsets.only(top: Get.height/1.5),
                           decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                  begin: Alignment.topRight,
-                                  end: Alignment.bottomLeft,
-                                  colors: [
-                                    // Colors.greenAccent.shade100,
-                                    // Colors.greenAccent.shade200,
-                                    Color(0xFFDBDC48),
-                                    Color(0xFF9DBD00),
-                                    Color(0xFF7CA702),
-                                    // Colors.greenAccent.shade700,
-                                  ]
-                              ),
+                              color: Colors.deepOrange.shade700,
                               borderRadius: BorderRadius.circular(30),
-                              border: Border.all(color: Color(0xFF7CA702),width: 2)
+                              border: Border.all(color: Colors.deepOrange.shade900,width: 2)
                           ),
                           alignment: Alignment.center,
                           child: Container(
                             height: Get.height/7.6,
                             width: Get.width/4.3,
                             decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                  begin: Alignment.topRight,
-                                  end: Alignment.bottomLeft,
-                                  colors: [
-                                    Color(0xFFDBDC48),
-                                    Color(0xFF9DBD00),
-                                    // Color(0xFF7CA702),
-                                  ]
-                              ),
+                              color: Colors.deepOrange.shade600,
                               borderRadius: BorderRadius.circular(30),
                             ),
                             alignment: Alignment.center,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Icon(Icons.play_arrow_outlined,color: Colors.white,size: 38.sp,),
+                                Icon(Icons.play_arrow_outlined,color: Colors.amber.shade300,size: 38.sp,),
                                 Text(
                                   "Medium",
                                   style: GoogleFonts.caveatBrush(
-                                      color: Colors.white,
+                                      color: Colors.amber.shade300,
                                       fontWeight: FontWeight.bold,
                                       fontSize: 22.sp,
                                       shadows: [
@@ -203,46 +166,27 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
                           width: Get.width/5,
                           margin: EdgeInsets.only(top: Get.height/1.5),
                           decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                  begin: Alignment.topRight,
-                                  end: Alignment.bottomLeft,
-                                  colors: [
-                                    // Colors.greenAccent.shade100,
-                                    // Colors.greenAccent.shade200,
-                                    Color(0xFFDBDC48),
-                                    Color(0xFF9DBD00),
-                                    Color(0xFF7CA702),
-                                    // Colors.greenAccent.shade700,
-                                  ]
-                              ),
+                              color: Colors.deepOrange.shade700,
                               borderRadius: BorderRadius.circular(30),
-                              border: Border.all(color: Color(0xFF7CA702),width: 2)
+                              border: Border.all(color: Colors.deepOrange.shade900,width: 2)
                           ),
                           alignment: Alignment.center,
                           child: Container(
                             height: Get.height/7.6,
                             width: Get.width/5.5,
                             decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                  begin: Alignment.topRight,
-                                  end: Alignment.bottomLeft,
-                                  colors: [
-                                    Color(0xFFDBDC48),
-                                    Color(0xFF9DBD00),
-                                    // Color(0xFF7CA702),
-                                  ]
-                              ),
+                              color: Colors.deepOrange.shade600,
                               borderRadius: BorderRadius.circular(30),
                             ),
                             alignment: Alignment.center,
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Icon(Icons.play_arrow_outlined,color: Colors.white,size: 38.sp,),
+                                Icon(Icons.play_arrow_outlined,color: Colors.amber.shade300,size: 38.sp,),
                                 Text(
                                   "Hard",
                                   style: GoogleFonts.caveatBrush(
-                                      color: Colors.white,
+                                      color: Colors.amber.shade300,
                                       fontWeight: FontWeight.bold,
                                       fontSize: 22.sp,
                                     shadows: [
