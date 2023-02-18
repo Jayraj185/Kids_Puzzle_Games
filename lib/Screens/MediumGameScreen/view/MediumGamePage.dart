@@ -418,6 +418,7 @@ class _MediumGamePageState extends State<MediumGamePage> with TickerProviderStat
             child: Stack(
               alignment: Alignment.center,
               children: [
+                Lottie.asset("assets/animation/game_over.json"),
                 Lottie.asset("assets/animation/win1.json"),
                 Lottie.asset("assets/animation/win2.json"),
               ],

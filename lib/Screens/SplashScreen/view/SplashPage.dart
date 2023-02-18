@@ -42,7 +42,7 @@ class _SplashPageState extends State<SplashPage> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Lottie.asset("assets/animation/tiger.json"),
+                    Lottie.asset("assets/animation/splash.json"),
                     SizedBox(width: Get.width/9,),
                     Transform.rotate(
                         angle: pi/-6,
