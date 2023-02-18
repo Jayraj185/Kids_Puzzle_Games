@@ -52,7 +52,7 @@ class _HardGamePageState extends State<HardGamePage> with TickerProviderStateMix
             alignment: Alignment(AlignAnimation!.value, -1),
             child: InkWell(
               onTap: () {
-                Get.offAllNamed('/');
+                Get.offAllNamed('Home');
                 // homeController.htotal.value=0;
                 // homeController.hind.value=0;
                 // homeController.hwin.value = false;

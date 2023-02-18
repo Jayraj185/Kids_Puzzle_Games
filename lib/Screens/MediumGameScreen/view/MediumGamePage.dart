@@ -52,7 +52,7 @@ class _MediumGamePageState extends State<MediumGamePage> with TickerProviderStat
             alignment: Alignment(AlignAnimation!.value, -1),
             child: InkWell(
               onTap: () {
-                Get.offAllNamed('/');
+                Get.offAllNamed('Home');
                 homeController.mtotal.value=0;
                 homeController.mind.value=0;
                 homeController.mwin.value = false;

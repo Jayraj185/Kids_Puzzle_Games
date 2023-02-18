@@ -55,7 +55,7 @@ class _EasyGamePageState extends State<EasyGamePage> with TickerProviderStateMix
             alignment: Alignment(AlignAnimation!.value, -1),
             child: InkWell(
               onTap: () {
-                Get.offAllNamed('/');
+                Get.offAllNamed('Home');
                 homeController.etotal.value=0;
                 homeController.eind.value=0;
                 homeController.ewin.value = false;
